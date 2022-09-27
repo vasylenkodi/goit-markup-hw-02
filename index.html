@@ -5,21 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Хедер -->
     <header class="header">
       <nav class="navigation">
-        <a href="./index.html" class="logo">WebStudio</a>
-        <ul class="navigation-list">
-          <li class="navigation-link"><a href="./index.html">Студія</a></li>
-          <li class="navigation-link"><a href="./portfolio.html">Портфоліо</a></li>
-          <li class="navigation-link"><a href="">Контакти</a></li>
+        <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
+        <ul class="navigation-list list">
+          <li class="navigation-link"><a href="./index.html" class="link">Студія</a></li>
+          <li class="navigation-link"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li class="navigation-link"><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts-list">
-        <li class="contacts-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="contacts-item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts-list list">
+        <li class="contacts-item">
+          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+        </li>
+        <li class="contacts-item">
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!-- Основний контент сторінки -->
@@ -31,8 +40,8 @@
       </section>
       <!-- Секція наші переваги -->
       <section class="features">
-        <h2 class="features-title">Наші переваги</h2>
-        <ul class="features-list">
+        <h2 class="features-title title">Наші переваги</h2>
+        <ul class="features-list list">
           <li class="features-item">
             <h3 class="features-subtitle">Увага до деталей</h3>
             <p class="features-text">
@@ -61,35 +70,35 @@
       </section>
       <!-- Секція чим ми займаємось -->
       <section class="services">
-        <h2 class="services-title">Чим ми займаємося</h2>
-        <ul class="services-list">
+        <h2 class="services-title title">Чим ми займаємося</h2>
+        <ul class="services-list list">
           <li class="services-item">
             <img
-                src="./images/services-image-1.jpg"
-                alt="людина працює з планшетом з клавіатурою"
-                width="370"
+              src="./images/services-image-1.jpg"
+              alt="людина працює з планшетом з клавіатурою"
+              width="370"
             />
           </li>
           <li class="services-item">
             <img
-                src="./images/services-image-2.jpg"
-                alt="людина працює з ноутбуком та з телефоном"
-                width="370"
+              src="./images/services-image-2.jpg"
+              alt="людина працює з ноутбуком та з телефоном"
+              width="370"
             />
           </li>
           <li class="services-item">
             <img
-                src="./images/services-image-3.jpg"
-                alt="людина тримає планшет з палітрою"
-                width="370"
+              src="./images/services-image-3.jpg"
+              alt="людина тримає планшет з палітрою"
+              width="370"
             />
           </li>
         </ul>
       </section>
       <!-- Секція наша команда -->
       <section class="team">
-        <h2 class="team-title">Наша команда</h2>
-        <ul class="team-list">
+        <h2 class="team-title title">Наша команда</h2>
+        <ul class="team-list list">
           <li class="team-item">
             <img
               src="./images/team-image-1.jpg"
@@ -127,19 +136,24 @@
     </main>
     <!-- футер -->
     <footer class="footer">
-      <a href="./" class="logo">WebStudio</a>
+      <a href="./" class="logo"><span class="accent">Web</span>Studio</a>
       <address class="adress">
-        <ul class="adress-list">
+        <ul class="adress-list list">
           <li class="adress-item">
             <a
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              class="link"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li class="adress-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="adress-item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="adress-item">
+            <a href="mailto:info@devstudio.com" class="link contact">info@devstudio.com</a>
+          </li>
+          <li class="adress-item">
+            <a href="tel:+380961111111" class="link contact">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
